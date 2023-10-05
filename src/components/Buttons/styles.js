@@ -22,7 +22,7 @@ export const CreateMemoji = styled.button `
    color: #FFF;
    
    @media (max-width: 620px) {
-      padding: 17px 150px;
+      padding: 14px 120px;
    }
 `
 
