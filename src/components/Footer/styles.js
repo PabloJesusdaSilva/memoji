@@ -25,7 +25,7 @@ export const DescriptionFooter = styled.div `
    flex-direction: column;
 
    @media (max-width: 620px) {
-      padding-left: 30px;
+      padding-left: 20px;
    }
 `
 

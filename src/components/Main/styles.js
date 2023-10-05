@@ -29,6 +29,7 @@ export const Description = styled.p `
 
    @media (max-width: 620px) {
       width: 410px;
+      font-size: 48px;
    }
 `
 
