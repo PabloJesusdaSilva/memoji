@@ -3,6 +3,10 @@ import styled from 'styled-components';
 export const BoxButtons = styled.div `
    display: flex;
    gap: 0 50px;
+
+   @media (max-width: 620px) {
+      flex-direction: column;
+   }
 `
 
 export const CreateMemoji = styled.button `
@@ -16,6 +20,10 @@ export const CreateMemoji = styled.button `
    cursor: pointer;
    background-color: #6610F2;
    color: #FFF;
+   
+   @media (max-width: 620px) {
+      padding: 17px 170px;
+   }
 `
 
 export const ViewLibrary = styled.button `
@@ -29,5 +37,9 @@ export const ViewLibrary = styled.button `
    cursor: pointer;
    background-color: #FFF;
    color: #2A2A2A;
-
+   
+   @media (max-width: 620px) {
+      padding: 17px 170px;
+      margin-top: 10px;
+   }
 `

@@ -26,6 +26,10 @@ export const Description = styled.p `
    font-size: 56px;
    line-height: 70px;
    color: #2F2F2F;
+
+   @media (max-width: 620px) {
+      width: 500px;
+   }
 `
 
 export const MemojiBrimstone = styled.img `
@@ -33,6 +37,10 @@ export const MemojiBrimstone = styled.img `
    top: 12%;
    right: 10%;
    width: 150px;
+
+   @media (max-width: 620px) {
+      display: none;
+   }
 `
 
 export const MemojiKilljoy = styled.img `
@@ -40,12 +48,20 @@ export const MemojiKilljoy = styled.img `
    top: 8%;
    left: 10%;
    width: 150px;
+
+   @media (max-width: 620px) {
+      display: none;
+   }
 `
 
 export const MemojiRaze = styled.img `
    position: absolute;
    top: 110%;
    width: 150px;
+
+   @media (max-width: 620px) {
+      display: none;
+   }
 `
 
 export const MemojiReyna = styled.img `
@@ -53,6 +69,10 @@ export const MemojiReyna = styled.img `
    top: 83%;
    right: 10%;
    width: 150px;
+
+   @media (max-width: 620px) {
+      display: none;
+   }
 `
 
 export const MemojiYoru = styled.img `
@@ -60,4 +80,8 @@ export const MemojiYoru = styled.img `
    top: 87%;
    left: 12%;
    width: 150px;
+
+   @media (max-width: 620px) {
+      display: none;
+   }
 `

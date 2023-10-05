@@ -10,11 +10,23 @@ export const MyFooter = styled.footer `
    border-radius: 10px;
    box-shadow: 0 0 10px #F2F2F2;
    background-color: #F2F2F2;
+
+   @media (max-width: 620px) {
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+      margin-top: 100px;
+      padding: 40px 40px 0 ;
+   }
 `
 
 export const DescriptionFooter = styled.div `
    display: flex;
    flex-direction: column;
+
+   @media (max-width: 620px) {
+      padding-left: 50px;
+   }
 `
 
 export const Title = styled.h4 `
