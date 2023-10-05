@@ -28,7 +28,7 @@ export const Description = styled.p `
    color: #2F2F2F;
 
    @media (max-width: 620px) {
-      width: 500px;
+      width: 430px;
    }
 `
 
