@@ -16,7 +16,7 @@ export const MyFooter = styled.footer `
       width: 100%;
       height: auto;
       margin-top: 100px;
-      padding: 40px 40px 0 ;
+      padding: 20px 40px 0 ;
    }
 `
 
@@ -25,7 +25,7 @@ export const DescriptionFooter = styled.div `
    flex-direction: column;
 
    @media (max-width: 620px) {
-      padding-left: 20px;
+      padding-left: 10px;
    }
 `
 
