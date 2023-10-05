@@ -6,6 +6,7 @@ export const Container = styled.main `
    align-items: center;
    position: relative;
    width: 100%;
+   margin-top: 20px;
    font-family: 'Inter', sans-serif;
 `
 

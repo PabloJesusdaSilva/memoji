@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const BoxButtons = styled.div `
    display: flex;
-   gap: 0 20px;
+   gap: 0 50px;
 `
 
 export const CreateMemoji = styled.button `
